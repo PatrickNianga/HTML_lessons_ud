@@ -1,0 +1,32 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "DM Sans", serif;
+    /* font-family: "Poppins", serif; */ 
+}
+.banner{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #FCD8CA;
+  min-height: 48px;
+}  
+.banner__text{
+  color: #4B5563;
+  font-size: 15px;
+}
+.banner__image{
+  cursor: pointer;
+}
+.close_img{
+  position: absolute;
+  right: 168px;
+  top: 14px;
+}
+
+  
